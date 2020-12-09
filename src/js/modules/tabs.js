@@ -19,7 +19,7 @@ const tabs = (headerSelector, tabSelector, contentSelector, activeClass) => {
   };
 
   hideTabContent();
-  showTabContent(0);
+  showTabContent();
 
   header.addEventListener('click', (e) => {
     const target = e.target;
